@@ -24,6 +24,11 @@ public class ENNEMI : MonoBehaviour
         collision.rigidbody.linearVelocityY = 0;
         collision.rigidbody.AddForce(bounce, ForceMode2D.Impulse);
         Die();
+    } else
+    {
+        PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+        
+            playerHealth.TakeDamage();
     }
     
 }
