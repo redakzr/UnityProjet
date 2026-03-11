@@ -2667,6 +2667,7 @@ MonoBehaviour:
   currentLifePoints: 0
   maxLifePoints: 5
   currentLifePointsText: {fileID: 1109001248}
+  sr: {fileID: 547615490}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

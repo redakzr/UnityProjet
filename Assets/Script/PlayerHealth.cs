@@ -12,7 +12,10 @@ public class PlayerHealth : MonoBehaviour
     private TextMeshProUGUI currentLifePointsText;
 
     [SerializeField]
+    private SpriteRenderer sr;
 
+    [SerializeField]
+    private HealthBar healthBar;
  
     private bool isInvulnerable = false;
  
@@ -35,6 +38,7 @@ public class PlayerHealth : MonoBehaviour
         currentLifePoints - 1,
         0,
         maxLifePoints);
+        healthBar.SetHealth((float)currentLifePoints / maxLifePoints);
         StartCoroutine(InvulnerableFlash());
         currentLifePointsText.SetText(currentLifePoints.ToString());
     }
