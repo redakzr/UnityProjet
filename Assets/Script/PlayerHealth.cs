@@ -14,6 +14,8 @@ public class PlayerHealth : MonoBehaviour
     void Awake()
     {
         currentLifePoints = maxLifePoints;
+        currentLifePointsText.SetText(currentLifePoints.ToString());
+    
     }
  
    

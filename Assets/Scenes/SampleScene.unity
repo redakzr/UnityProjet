@@ -2664,6 +2664,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15db6d276bce43b44b74bb225673ea90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  currentLifePoints: 0
+  maxLifePoints: 5
+  currentLifePointsText: {fileID: 1109001248}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3584,8 +3587,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1107.5125, y: -1313.9153}
-  m_SizeDelta: {x: 86.775, y: 20.718}
+  m_AnchoredPosition: {x: -879.3, y: -490}
+  m_SizeDelta: {x: 84.253, y: 21.376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1109001248
 MonoBehaviour:
